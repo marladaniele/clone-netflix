@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+ background-image: url(data:image/png;base64,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);
+background-size: cover;
+
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   }
+
+button{
+    cursor: pointer;
+    background-color: #e50914;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 17px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 30px;
+    font-size: 1rem;
+    height: 41px;
+    width: 81px;
+    margin-top: 20px;
+ 
+   }
+
+
+ main{ margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+ }
+
+
+ .left{
+    margin-left: 15px;
+   
+ }
+
+
+
+ .center{
+    margin-top: 15%;
+   
+ }
+
+ h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 15%;
+    font-size: 3.125rem;
+ }
+
+ h2{
+    text-align: center;
+    color: #fff;
+    margin: 16 155px;
+    font-size: 1.625rem;
+ }
+
+ p{
+    text-align: center;
+    color: #fff;
+    margin: 0 127.141px;
+    padding: 0px 47.5px 20px;
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    
+  
+ }
+
+.formulario{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+    
+
+}
+
+input{
+
+    color: black;
+    height: 60px;
+    width: 500px;
+padding-left: 3%;
+}
+
+.formulario-button{
+   font-size: 1.625rem;
+    min-height: 60px;
+    height: 60px;
+    width: auto;
+    margin-top: 0px;
+
+
+}
